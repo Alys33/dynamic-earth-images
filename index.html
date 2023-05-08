@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form id="formulaire">
+          <p><label>Année<input type="text" id="annee" name="ann"></label> </p>
+          <p></p><label>Mois <input type="text" id="mois" name="mois"></label></p>
+          <p></p><label>Jours<input type="text" id="jour" name="jour"></label></p>
+          <p></p><input type="submit" id="mybutton" value="Valider"></p>
+          </form> 
+
+          <div id="photo">
+             <img id="image" src="" alt="pas d'image (insérer une date s'il vous plaît!)">
+
+          </div>
+        
+          <div>
+            <input type="range" id="slider" name="slider"
+                   min="0" max="21" value="0">
+            <label for="slider"></label>
+            <p id="numimage"> </p>
+          </div>
+          
+
+
+        <script src="nasa.js"></script>
+    </body>
+
+
+</html>
